@@ -1,0 +1,4 @@
+git+https://github.com/facebookresearch/segment-anything.git
+opencv-python
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+numpy
