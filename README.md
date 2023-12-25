@@ -32,6 +32,7 @@ git clone https://github.com/jonathanlawhh/container-fill-rate-ai.git
 2. Install required libraries:
 ```bash
 pip install -R requirements.txt
+pip install -R requirements_torch.txt
 ```
 3. Download the SAM checkpoint:
    - Download the vit_l - ViT-L SAM model checkpoint from Meta's SAM GitHub page: https://github.com/facebookresearch/segment-anything#model-checkpoints.
