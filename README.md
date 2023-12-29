@@ -3,7 +3,7 @@
 [[`Project Writeup`](https://medium.com/@jonathanlawhh) [`My Website`](https://jonathanlawhh.com/)]
 
 ## Project Overview
-![Image of a container and the prediction](/assets/fill_rate_demo_01.png)
+![AI in Logistics: Optimizing Container Fill Rate with Computer Vision header image](/assets/AI%20in%20Logistics%20Container%20Fill%20Rate%20Header.jpg)
 This project explores the use of Segment Anything Model (SAM) by Meta researchers and computer vision to detect and calculate container fill rate based on pallet segmentation. It is designed to demonstrate the potential of this approach for optimizing logistics operations.
 
 This project takes into assumption that the fill rate will be calculated at each layer of the container loading process. The project can then be further enhanced to read from a live stream.
@@ -48,7 +48,7 @@ python main.py
 ```
 
 ## Closing thoughts
-
+![Image of a container and the prediction](/assets/fill_rate_demo_01.png)
 - An SSD (Single Shot Detection) or YOLO (You Only Look Once) model could be used as an alternative approach to detect pallets.
 - Pallets in the back layer may be captured as the front layer, resulting in false "filled" space.
 - In this approach using pallet labels as prompting points, the pro is that the chances of trash not being segmented are higher.

@@ -143,6 +143,8 @@ def fill_rate_calculation(prompt_points: list[list[int, int]], segment_mask: np.
     # Dilate to fill the gaps a little more
     cv2.dilate(fill_rate_used, np.ones((8, 8)), fill_rate_used)
 
+    cv2.imshow("fll rate", fill_rate_used)
+
     total_white = np.sum(fill_rate_used[tallest:ch, cx: cw] == 255)
     total_black = np.sum(fill_rate_used[tallest:ch, cx: cw] == 0)
 
